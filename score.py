@@ -24,8 +24,8 @@ for i in range(1,len(ls)):
 for row in ls:
     print(row)
     fw.write(','.join(row)+'\n')
-fw.write('语文最高分为{}，最低分为{}，平均分为{}'.format(max(ls_1),min(ls_1),chinese/5)+'\n')
-fw.write('数学最高分为{}，最低分为{}，平均分为{}'.format(max(ls_2),min(ls_2),math/5)+'\n')
-fw.write('英语最高分为{}，最低分为{}，平均分为{}'.format(max(ls_3),min(ls_3),english/5)+'\n')
+fw.write('语文最高分为{}，最低分为{}，平均分为{}'.format(max(ls_chinese),min(ls_chinese),chinese/5)+'\n')
+fw.write('数学最高分为{}，最低分为{}，平均分为{}'.format(max(ls_math),min(ls_math),math/5)+'\n')
+fw.write('英语最高分为{}，最低分为{}，平均分为{}'.format(max(ls_english),min(ls_english),english/5)+'\n')
 fr.close()
 fw.close()
