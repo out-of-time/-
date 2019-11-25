@@ -20,7 +20,7 @@ def dec(d):
     return(''.join(plaincode))
 while True:
     try:
-        ch=eval(input('只加密输入1，只解密输入2，加密又解密输入3：'))
+        ch=eval(input('只加密输入1，只解密输入2，加密又解密输入3:'))
         if ch==1:
             a=input('请输入明文：')
             print(enc(a))
